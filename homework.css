@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 500vh;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+}
+.collection{
+    list-style: none;
+    display: flex;
+}
+.item{
+    margin-left: 30px;
+    font-size: 15px;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.bar i{
+    display: none;
+}
+.banner{
+    width: 100%;
+    height: auto;
+    display: flex;    
+    background: rgba(128, 128, 128, 0.267);
+}
+.banner_text{
+    width: 50%;
+    height: 100%;
+    padding-left: 10%;
+    padding-top: 5%;
+    background: rgba(128, 128, 128, 0);
+}
+.banner_image{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first,
+.second,
+.third{
+    font-size: 45px;
+    font-weight: 700;
+}
+.forth{
+    font-size: 15px;
+    margin-top: 5%;
+}
+.fifth{
+    font-size: 15px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background: black;
+    color: #FFF;
+    margin-top: 6%;
+    border-radius: 50px;
+    border: none;
+}
+.banner2{
+    width: 100%;
+    height: auto;
+    padding: 0 12%;
+    display: grid;
+}
+.banner_text2{
+    width: 100%;
+    padding-top: 20px;
+    height: 300px;
+}
+.text6,
+.text7,
+.text8{
+    text-align: center;
+    margin-top: 4px;
+}
+.banner_image2{
+    height: auto;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.text5{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.text10{
+    margin-top: 3%;
+    text-align: center;
+    word-spacing: 3px;
+}
+.text11{
+    text-align: center;
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 7%;
+}
+.image1{
+    width: 250px;
+    height: 100%;
+}
+.image1 img{
+    width: 100%;
+    height: 100%;
+}
+.image2{
+    width: 250px;
+    height: 100%;
+}
+.image2 img{
+    width: 100%;
+    height: 100%;
+}
+.image3{
+    width: 250px;
+    height: 100%;
+}
+.image3 img{
+    width: 100%;
+    height: 100%;
+}
+.text12{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    width: 200px;
+    margin-left: 10%;
+}
